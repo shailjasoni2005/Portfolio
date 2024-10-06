@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Caveat&family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'poppins' , sans-serif;
+}
+
+.title{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.Dashboard{
+  
+    background-image: url('./images/download.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.link{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    list-style: none;
+    display: inline;
+}
+h1{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(26, 125, 110);
+}
+.elements{
+    display: flex;
+    /* justify-content: space-around; */
+    /* width: 60%; */
+}
+
+.navigationbar{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    box-shadow: 0px 7px 10px rgb(26, 125, 110);
+     transition: 0.5s ease-in-out;
+}
+
+.dashboard{
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+    
+}
+.heading{
+    font-size: x-large;
+}
+
+.name{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.highlight{
+    display: inline;
+    font-weight: bold;
+    background-color: rgb(26, 125, 110);
+    color: black;
+    font-size: x-large;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0px 7px 10px rgba(175, 224, 222, 0.488);
+     transition: 0.5s ease-in-out;
+}
+
+
+.intro{
+    text-align: center;
+    margin-top: 20px;
+    /* border-bottom: solid; */
+}
+
+.skills{
+    margin-top: 0%;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    /* background-color: black; */
+}
+
+.Heading{
+    padding-top: 0;
+    color: rgb(26, 125, 110);
+    
+}
+
+.services{
+    border-bottom: solid;
+    width: 70px;
+    border-color: rgb(26, 125, 110);
+    
+}
+
+.card-a{
+    padding: 4px;
+    background-color: rgba(26, 23, 23, 0.488);
+     width: 300px;
+     height: 200px;
+     margin-bottom: 20px;
+     box-shadow: 0px 7px 10px rgb(26, 125, 110);
+     transition: 0.5s ease-in-out;
+ }
+ 
+ .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-top: 20px;
+    overflow: hidden;
+    
+ }
+
+ .card-heading{
+    margin-bottom: 10px;
+ }
+
+ .card-content{
+    font-weight: lighter;
+    font-size: small;
+ }
+
+ .fa-solid,.fa-brands{
+    color: rgb(26, 125, 110);
+    margin-bottom: 10px;
+ }
+
+ .about-me{
+    /* background-color: black; */
+    padding-top: 50px;
+    padding-left: 40px;
+    color: white;
+ }
+
+ .Personal-info{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+.details{
+    font-size: small;
+    font-weight: lighter;
+}
+
+.paragraph-about-me{
+    font-size: smaller;
+    font-weight: lighter;
+    background-color: rgba(26, 23, 23, 0.488);
+    width: 900px;
+    height: 200px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info-about-me{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 7px 10px rgb(26, 125, 110);
+     transition: 0.5s ease-in-out;
+}
+
+.button{
+    background-color: rgba(26, 23, 23, 0.488);
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px 5px 10px;
+    font-size: 1.5rem;
+    border: 2px solid;
+}
+.button:hover{
+    color:rgb(26, 125, 110) ;
+    box-shadow: 0 0 10px rgb(26, 125, 110),0 0 15px rgb(26, 125, 110),0 0 20px rgb(26, 125, 110);
+    /* transition-delay: 1s; */
+}
+.About-me-section{
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+.remaining-sections{
+    background-color: black;
+}
+
+.connect-me{
+    color: rgb(26, 125, 110);
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.email{
+    padding-left: 40px;
+}
+.Email{
+    background-color:rgba(26, 23, 23, 0.488); 
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: 0px 7px 10px rgb(26, 125, 110);
+     transition: 0.5s ease-in-out;
+     color: white;
+}
+
+::placeholder{
+    color: rgb(240, 236, 236);
+    font-family:'poppins' , sans-serif ;
+    font-weight: lighter;
+    font-size: large;
+}
+
+.connected{
+    color: white;
+    background-color: rgba(26, 23, 23, 0.488);
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    padding: 5px 10px 5px 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+.connected:hover{
+    color:rgb(26, 125, 110) ;
+    box-shadow: 0 0 10px rgb(26, 125, 110),0 0 15px rgb(26, 125, 110),0 0 20px rgb(26, 125, 110);
+    /* transition-delay: 1s; */
+}
+
